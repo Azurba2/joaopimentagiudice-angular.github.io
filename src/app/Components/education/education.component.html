@@ -1,0 +1,21 @@
+<div class="container text-center">
+    <div class="col-xs-12 col-md-12" style="margin: 25px 25px 70px 25px;">
+        <h1 class="fw-bolder" style="margin: 20px;" [style.color]="themeColor === 'white' ? 'black' : 'white'">Education</h1>
+        <mat-divider style="border-top-color: rgb(40, 167, 69);"></mat-divider>
+    </div>
+    <div class="row justify-content-center">
+        <div *ngFor="let item of educationInfo" class="col-xs-12 col-lg-4 d-flex justify-content-center" >
+            <div class="card border-success" style="width: 23rem; margin-bottom: 40px;" [style.background-color]="themeColor === 'white' ? 'white' : gray ">
+                <img class="card-img-top" src={{item.img}} alt="Card image cap">
+                <div class="card-body">
+                <h4 style="margin-bottom: 10px; font-weight: bolder;color: rgb(40, 167, 69);" >{{item.name}}</h4>
+                <mat-icon svgIcon={{item.flag}} style="height: 32px; width: 32px;"></mat-icon>
+                <p class="card-text" style="margin-top: 10px;" [style.color]="themeColor === 'white' ? 'black' : 'white'">{{item.text}}</p>
+                </div>
+                <div class="card-footer border-success">
+                    <p class="card-title" style="color: black;" [style.color]="themeColor === 'white' ? 'black' : 'white'">{{item.date}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

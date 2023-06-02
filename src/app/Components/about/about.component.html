@@ -1,0 +1,41 @@
+<div class="container text-center">
+    <div class="col-xs-12 col-md-12" style="margin: 25px 25px 70px 25px;">
+        <h1 class="fw-bolder" style="margin: 20px;" [style.color]="themeColor === 'white' ? 'black' : 'white'">About Me</h1>
+        <mat-divider></mat-divider>
+    </div>
+    
+    <div class="row"> 
+        <div class="col-xs-12 col-lg-6">
+            <img src="assets/img/fotoCurriculo_Linkedin.PNG" alt="">
+            <div class="m-3">
+                <!-- <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
+                    <mat-icon svgIcon="linkedin" (click)="navigateTo('www.linkedin.com/in/joao-giudice')"></mat-icon>
+                </button> -->
+                <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
+                    <mat-icon svgIcon="Github" (click)="navigateTo('https://github.com/Azurba')"></mat-icon>
+                </button>
+                <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
+                    <mat-icon svgIcon="facebook" (click)="navigateTo('https://www.facebook.com/joaohpg')"></mat-icon>
+                </button>            
+            </div>
+        </div>
+        <div class="col-xs-12 col-lg-6" style="text-align: center;">
+            <h2 [style.color]="themeColor === 'white' ? 'black' : 'white'">Hi! I'm John! I am <span style="font-weight: bolder;">{{text[index]}}</span></h2>
+            <p [style.color]="themeColor === 'white' ? 'black' : 'white'">I am currently a .NET full stack developer intern at Antra. Graduated in Computer Science at Colorado State University 
+                    in 2022. 
+                    I also have a degree in Biology and a Masters's in Microbiology from the University of 
+                    São Paulo. It was during my master's degree that I discovered a passion for computers and programming and chose to 
+                    follow a path in Computer Science.
+            </p>
+            <button type="button" class="btn btn-success btn-lg"><a style="text-decoration:none; color: white;" href="https://forms.gle/MDihbB7jKz2vXP196">Schedule a Call</a></button>
+            <button type="button" class="btn btn-success btn-lg"><a style="text-decoration:none; color: white;" href="https://1drv.ms/b/s!Aq_4EhaJUcWMifJ652DySla2lHci4A?e=N6Mr4n">PDF Resume</a></button>
+        </div>
+    </div>
+    <!-- Tech Stack -->
+    <div class="row">
+        <h2 [style.color]="themeColor === 'white' ? 'black' : 'white'" class="col-12" style="margin-bottom: 30px; margin-top: 30px;">Tech Stack</h2>
+        <div class="col-4 col-md-3 col-lg-2" *ngFor="let shield of techBadges">
+            <img class="badges" src={{shield}} alt="">
+        </div>
+    </div>
+</div>

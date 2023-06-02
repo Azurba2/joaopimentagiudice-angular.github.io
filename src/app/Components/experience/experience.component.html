@@ -1,0 +1,34 @@
+<div class="container text-center">
+    <div class="col-xs-12 col-md-12" style="margin: 25px 25px 70px 25px;">
+        <h1 class="fw-bolder" style="margin: 20px;" [style.color]="themeColor === 'white' ? 'black' : 'white'">Experience</h1>
+        <mat-divider style="border-top-color: rgb(40, 167, 69);;"></mat-divider>
+    </div>
+    <div class="row justify-content-center">
+        <div *ngFor="let item of experienceRepo" class="col-xs-12 col-lg-4 d-flex justify-content-center" >
+            <div class="card border-success" style="margin-bottom: 40px;" [style.background-color]="themeColor === 'white' ? 'white' : gray">
+              <div class="card-body d-flex justify-content-center" style="display: flex; flex-wrap: wrap;">
+                <div class="text-center" style="padding-bottom: 15px;">
+                  <h4 style="margin-bottom: 10px; font-weight: bolder; color: rgb(40, 167, 69);">{{item.name}}</h4>
+                  <mat-icon svgIcon={{item.flag}} style="height: 32px; width: 32px;"></mat-icon>
+                  <h5 style="margin-bottom: 10px;" [style.color]="themeColor === 'white' ? 'black' : 'white'">{{item.position}}</h5>
+                  <p class="card-text" style="margin-top: 10px;" [style.color]="themeColor === 'white' ? 'black' : 'white'">{{item.description}}</p>
+                </div>
+                <div *ngFor="let icon of item.tech"  class="mr-2" style="padding-left: 15px;">
+                    <div *ngIf="item.name !== 'Braiden Dining Hall'">
+                        <mat-icon svgIcon={{icon}} class="my-svg-element"></mat-icon>
+                        <p [style.color]="themeColor === 'white' ? 'black' : 'white'">{{icon}}</p>
+                    </div>
+                    <div *ngIf="item.name === 'Braiden Dining Hall'">
+                        <mat-icon style="transform: scale(1.4); color: rgb(40, 167, 69);">{{icon}}</mat-icon>
+                        <p *ngIf="icon === 'people'" [style.color]="themeColor === 'white' ? 'black' : 'white'">Leadership</p>
+                        <p *ngIf="icon === 'chat'" [style.color]="themeColor === 'white' ? 'black' : 'white'">Communicator</p>
+                    </div>
+                </div>
+              </div>
+              <div class="card-footer border-success">
+                <p class="card-title" style="color: black;" [style.color]="themeColor === 'white' ? 'black' : 'white'">{{item.date}}</p>
+              </div>
+            </div>
+          </div>  
+    </div>
+</div>
