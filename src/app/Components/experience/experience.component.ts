@@ -18,7 +18,7 @@ export class ExperienceComponent {
     this.experienceRepo = _experienceRepo.experienceInfo;
     this.matIconRegistry.addSvgIcon('Angular', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/Angular.svg'))
     this.matIconRegistry.addSvgIcon('Docker', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/Docker.svg'))
-    this.matIconRegistry.addSvgIcon('.NET', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/.NET.svg'))
+    this.matIconRegistry.addSvgIcon('NET', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/NET.svg'))
     this.matIconRegistry.addSvgIcon('Azure', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/Azure.svg'))
     this.matIconRegistry.addSvgIcon('SQL', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/SQL.svg'))
     this.matIconRegistry.addSvgIcon('Flutter', this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/svg/Flutter.svg'))

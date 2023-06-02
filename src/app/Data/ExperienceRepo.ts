@@ -6,7 +6,7 @@ export class ExperienceRepo{
         position: "Full Stack .NET Developer", 
         description: "Worked on an internal Human Resource Management System which aimed to help the HR department to have a comprehensive solution for managing employee data and HR processes, such as hiring.",
         date: "2023 - Current",
-        tech: ['.NET', 'Angular', 'Docker', 'Azure', 'SQL', 'Github'],
+        tech: ['NET', 'Angular', 'Docker', 'Azure', 'SQL', 'Github'],
         soft: [],
         flag : "usa"
         },
