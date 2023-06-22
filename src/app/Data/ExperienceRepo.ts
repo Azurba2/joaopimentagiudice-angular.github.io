@@ -3,10 +3,10 @@ import { Experience } from "../Models/experience";
 export class ExperienceRepo{
     experienceInfo : Array<Experience> = [
         { name: "Antra Inc", 
-        position: "Full Stack .NET Developer", 
-        description: "Worked on an internal Human Resource Management System which aimed to help the HR department to have a comprehensive solution for managing employee data and HR processes, such as hiring.",
+        position: "Full Stack .NET Intern", 
+        description: "I am an enthusiastic Full Stack .NET Intern who thrives in an agile work environment alongside a dynamic team of 10 talented developers. During my internship, I have proactively immersed myself in practical learning experiences, gaining expertise in cutting-edge technologies such as .NET, Angular, React, Azure, and more.",
         date: "2023 - Current",
-        tech: ['NET', 'Angular', 'Docker', 'Azure', 'SQL', 'Github'],
+        tech: ['NET', 'Angular', 'React' ,'Docker', 'Azure', 'SQL', 'Github'],
         soft: [],
         flag : "usa"
         },
