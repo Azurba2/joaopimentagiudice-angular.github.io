@@ -12,7 +12,7 @@ export class ProjectsRepo {
         },
 
         {name: 'Wheelix Rental Cars',
-        description: 'Wheelix is a fully functional car rental website. Its dynamic nature incorporates various technologies to provide users with a seamless rental experience. It contains two layers: 1) ASP.NET API Layer, which efficiently communicates with the Microsoft SQL Server database and 2) Angular front-end layer. The application uses a GEO Location API to fetch user current location, use it to seek the closest Wheelix Store location and display it in a Leaflet Map',
+        description: 'Wheelix is a fully functional car rental website. Its dynamic nature incorporates various technologies to provide users with a seamless rental experience. It contains two layers: 1) ASP.NET API Layer, which efficiently communicates with the Microsoft SQL Server database and 2) Angular front-end layer. The application uses a GEO Location API to fetch user current location, use it to seek the closest Wheelix Store location and display it in a Leaflet Map. More about this on the Frontend Module in Github',
         tech: ['NET', 'Angular', 'SQL', 'Bootstrap'],
         button: ['Backend Module', 'Frontend Module'],
         link: ['https://github.com/Azurba/Wheelix_Backend/tree/main#readme', 'https://github.com/Azurba/Wheelix_FrontEnd#readme'],
@@ -20,7 +20,7 @@ export class ProjectsRepo {
         },
 
         {name: 'Abruza Cosmic Store',
-        description: 'This is a fully working fictitious web store that sells universe themed products like t-shirts, hats, posters and much more. It is divided into two modules, ASP.NET API Backend which is responsible for managing all the API and database connections and the Angular Frontend module that uses API calls to get all the information about products, user account and order histories and display it to the user. This app uses JWT tokens to handle authentication and authorization of users, which includes account registration and login. In addition, it uses Route Guards in order to define which routes are available, depending if the user is logging in or not',
+        description: 'This is a fully working fictitious web store that sells universe themed products like t-shirts, hats, posters and much more. It is divided into two modules, ASP.NET API Backend which is responsible for managing all the API and database connections and the Angular Frontend module that uses API calls to get all the information about products, user account and order histories and display it to the user. This app uses JWT tokens to handle authentication and authorization of users, which includes account registration and login. In addition, it uses Route Guards in order to define which routes are available, depending if the user is logging in or not. More about this on the Frontend Module in Github',
         tech: ['NET', 'Angular', 'SQL', 'Bootstrap'],
         button: ['Backend Module', 'Frontend Module'],
         link: ['https://github.com/Azurba/AbruzaCosmicProducts_Backend', 'https://github.com/Azurba/AbruzaCosmicProduct_frontEnd'],
@@ -28,7 +28,7 @@ export class ProjectsRepo {
         },
 
         {name: 'Nature - Photography Website',
-        description: 'One of my hobbies is to do birdwatch and take pictures of the nature. I built this website, using Angular, to show the best pictures I took of birds, flowers, animals and landscapes.',
+        description: 'One of my hobbies is to do birdwatch and take pictures of the nature. I built this website, using Angular, to show the best pictures I took of birds, flowers, animals and landscapes. More about this app on the Github Repository',
         tech: ['Angular', 'Bootstrap'],
         button: ['Github'],
         link: ['https://github.com/Azurba/Nature', ''],
