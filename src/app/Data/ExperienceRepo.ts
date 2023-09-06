@@ -2,11 +2,19 @@ import { Experience } from "../Models/experience";
 
 export class ExperienceRepo{
     experienceInfo : Array<Experience> = [
-        { name: "Antra Inc", 
-        position: "Full Stack .NET Intern", 
-        description: "I am an enthusiastic Full Stack .NET Intern who thrives in an agile work environment alongside a dynamic team of 10 talented developers. During my internship, I have proactively immersed myself in practical learning experiences, gaining expertise in cutting-edge technologies such as .NET, Angular, React, Azure, and more.",
+        // { name: "Antra Inc", 
+        // position: "Full Stack .NET Intern", 
+        // description: "I am an enthusiastic Full Stack .NET Intern who thrives in an agile work environment alongside a dynamic team of 10 talented developers. During my internship, I have proactively immersed myself in practical learning experiences, gaining expertise in cutting-edge technologies such as .NET, Angular, React, Azure, and more.",
+        // date: "2023 - Current",
+        // tech: ['NET', 'Angular', 'React' ,'Docker', 'Azure', 'SQL', 'Github'],
+        // soft: [],
+        // flag : "usa"
+        // },
+        { name: "Freelancer", 
+        position: "Full Stack Developer", 
+        description: "I embarked on a career as a freelance programmer, successfully delivering many projects for multiple clients. The projects that I was involved in include the web development, both front and backend, of rental car companies, online stores, photographer portfolios, dental clinic websites, and many others.",
         date: "2023 - Current",
-        tech: ['NET', 'Angular', 'React' ,'Docker', 'Azure', 'SQL', 'Github'],
+        tech: ['NET', 'Angular', 'React' , 'Flutter' ,'Docker', 'Azure', 'SQL', 'Github'],
         soft: [],
         flag : "usa"
         },

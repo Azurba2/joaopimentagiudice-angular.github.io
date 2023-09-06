@@ -11,7 +11,7 @@ import { TechStack } from 'src/app/Data/TechStack';
 })
 export class AboutComponent {
 
-  text : Array<string> = [" a Software Engineer", " Creative", " a Team Player", " a Leader" , " Hard-Working", " a Good Communicator"];
+  text : Array<string> = [" Software Developer"," Motivated", " Adaptable" , " Independent", " Creative", " a Good Communicator"];
   index : number = 0;
   @Input() themeColor : string | undefined;
   techBadges : Array<string>
