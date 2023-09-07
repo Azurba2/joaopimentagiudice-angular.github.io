@@ -16,7 +16,7 @@ export class ProjectsRepo {
         tech: ['NET', 'Angular', 'Docker', 'Azure', 'SQL'],
         button: [],
         link: [],
-        date: 'Jan 2023 - Current'
+        date: 'Jan 2023 - Jul 2023'
         },
 
         {name: 'Wheelix Rental Cars',
