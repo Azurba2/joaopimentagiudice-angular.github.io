@@ -38,8 +38,12 @@
                     <mat-icon svgIcon="facebook" (click)="navigateTo('https://www.facebook.com/joaohpg')"></mat-icon>
                 </button>            
             </div>
-            <!-- <button type="button" class="btn btn-success btn-lg"><a style="text-decoration:none; color: white;" href="https://forms.gle/MDihbB7jKz2vXP196">Schedule a Call</a></button> -->
-            <!-- <button type="button" class="btn btn-success btn-lg"><a style="text-decoration:none; color: white;" href="https://1drv.ms/b/s!Aq_4EhaJUcWMj5puioRfTUwdZq8aBg?e=xRissx">PDF Resume</a></button> -->
+            <button type="button" class="btn btn-success btn-lg" (click)="toggleLanguageButtons()"><a style="text-decoration:none; color: white;">PDF Resume</a></button>
+        </div>
+        <div *ngIf="showLanguageButtons">
+            <p>In which language would you like the resume?</p>
+            <button type="button" class="btn btn-success btn-lg" (click)="downloadResume('BR')">Português (BR)</button>
+            <button type="button" class="btn btn-success btn-lg" (click)="downloadResume('US')">English</button>
         </div>
     </div>
     <!-- Tech Stack -->
