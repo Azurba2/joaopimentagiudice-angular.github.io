@@ -28,7 +28,7 @@ export class ExperienceRepo{
         },
         { name: "Diletta Solutions", 
         position: "Front-end Developer Intern", 
-        description: "I was responsible for developing the front-end of a health care application, which provided the healthcare professionals with a comprehensive solution for monitoring and analyzing patient information such as conditions, treatments, diagnosis, medicines currently being used as well as the generation of prescriptions and forms related with Cannabidiol drugs",
+        description: "As a summer intern, I was cooperating in the development of the front-end of a medical application, providing healthcare professionals with a comprehensive solution for monitoring and analyzing patient information. The application generates prescriptions and forms related with Cannabidiol drugs, leading to potential results, with greater efficiency in clinical workflows",
         date: "Summer 2019",
         tech: ['Flutter', 'Github'],
         soft: [],
