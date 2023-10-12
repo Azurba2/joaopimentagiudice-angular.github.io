@@ -5,11 +5,11 @@
     </div>
     
     <div class="row"> 
-        <!-- <div class="col-xs-12 col-lg-6">
+        <div class="col-xs-12 col-lg-6">
             <img src="assets/img/fotoCurriculo_Linkedin.PNG" alt="">
             <div class="m-3">
                 <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
-                    <mat-icon svgIcon="linkedin" (click)="navigateTo('www.linkedin.com/in/joao-giudice')"></mat-icon>
+                    <mat-icon svgIcon="linkedin" (click)="navigateTo('https://www.linkedin.com/in/joao-giudice')"></mat-icon>
                 </button>
                 <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
                     <mat-icon svgIcon="Github" (click)="navigateTo('https://github.com/Azurba')"></mat-icon>
@@ -18,16 +18,16 @@
                     <mat-icon svgIcon="facebook" (click)="navigateTo('https://www.facebook.com/joaohpg')"></mat-icon>
                 </button>            
             </div>
-        </div> -->
-        <div class="col-xs-12 col-lg-12" style="text-align: center;">
+        </div>
+        <div class="col-xs-12 col-lg-6" style="text-align: center;">
             <h2 [style.color]="themeColor === 'white' ? 'black' : 'white'">Hi! I'm John! I am <span style="font-weight: bolder;">{{text[index]}}</span></h2>
             <p [style.color]="themeColor === 'white' ? 'black' : 'white'">I am a Full Stack developer with a focus on Web and Mobile software development.
 
-                My main stack is .NET and Angular, but I have experience in several technologies and tools including React, Flutter, C#, SQL, Azure, Docker, and CI/CD.
+                My main stack is .NET and Flutter, but I have experience in several technologies and tools including React, Angular, C#, SQL, Azure, Docker, and CI/CD.
                 
                 I am able to solve complex problems, review code and design efficient and scalable solutions. In addition, I focus on SOLID and TDD principles to ensure that the code is maintainable and of high quality.
             </p>
-            <div class="m-3">
+            <!-- <div class="m-3">
                 <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
                     <mat-icon svgIcon="linkedin" (click)="navigateTo('https://www.linkedin.com/in/john-henryp/')"></mat-icon>
                 </button>
@@ -37,7 +37,7 @@
                 <button mat-icon-button style="border: none;" [style.background-color]="themeColor === 'white' ? 'white' : 'black'">
                     <mat-icon svgIcon="facebook" (click)="navigateTo('https://www.facebook.com/joaohpg')"></mat-icon>
                 </button>            
-            </div>
+            </div> -->
             <button type="button" class="btn btn-success btn-lg" (click)="toggleLanguageButtons()"><a style="text-decoration:none; color: white;">PDF Resume</a></button>
         </div>
         <div *ngIf="showLanguageButtons">

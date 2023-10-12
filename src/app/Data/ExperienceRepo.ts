@@ -10,10 +10,18 @@ export class ExperienceRepo{
         // soft: [],
         // flag : "usa"
         // },
+        // { name: "Diletta Solutions", 
+        // position: "Flutter Developer", 
+        // description: "I embarked on a career as a freelance programmer, successfully delivering many project",
+        // date: "Oct 2023 - Current",
+        // tech: ['Flutter', 'Github'],
+        // soft: [],
+        // flag : "usa"
+        // },
         { name: "Freelancer", 
         position: "Full Stack Developer", 
         description: "I embarked on a career as a freelance programmer, successfully delivering many projects for multiple clients. The projects that I was involved in include the web development, both front and backend, of rental car companies, online stores, photographer portfolios, dental clinic websites, and many others.",
-        date: "2023 - Current",
+        date: "Jan 2023 - Current",
         tech: ['NET', 'Angular', 'React' , 'Flutter' ,'Docker', 'Azure', 'SQL', 'Github'],
         soft: [],
         flag : "usa"
