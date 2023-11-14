@@ -46,13 +46,13 @@ export class AboutComponent {
   }
 
   downloadResume(language : string){
-    const fileUrl = `/assets/documents/JohnHenry_resume23_${language}.pdf`; 
+    const fileUrl = `/assets/documents/JohnPimenta_resume23_${language}.pdf`; 
     this.http.get(fileUrl, { responseType: 'blob' }).subscribe((data: Blob) => {
       const blob = new Blob([data], { type: 'application/octet-stream' });
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'JohnHenry_23.pdf';
+      a.download = 'JohnPimenta_23.pdf';
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);
